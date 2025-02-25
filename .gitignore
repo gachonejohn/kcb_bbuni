@@ -1,0 +1,39 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+_pycache_/
+
+# Django files
+*.log
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# IDE/editor directories
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Other Python related files
+*.pot
+*.pyc
+*.pyo
+
+# Coverage reports
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# Local settings
+local_settings.py

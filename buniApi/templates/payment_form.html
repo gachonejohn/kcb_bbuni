@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>M-Pesa STK Push Test</title>
+</head>
+<body>
+    <h1>M-Pesa STK Push Test</h1>
+    <form action="{% url 'stk_push' %}" method="post">
+        {% csrf_token %}
+        <label for="phoneNumber">Phone Number (2547...):</label><br>
+        <input type="text" id="phoneNumber" name="phoneNumber" required><br><br>
+
+        <label for="amount">Amount:</label><br>
+        <input type="number" id="amount" name="amount" required><br><br>
+
+        <button type="submit">Submit STK Push</button>
+    </form>
+</body>
+</html>
